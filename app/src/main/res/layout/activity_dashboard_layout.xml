@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/drawer_layout"
+    android:id="@+id/dashboard_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="end"
-
-    tools:context=".DrawerLayoutActivity">
-
+    tools:context=".DashboardLayoutActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Home"
+                android:text="Dashboard"
                 android:textColor="#050505"
                 android:textSize="20dp"
                 android:textStyle="bold" />
@@ -38,11 +37,13 @@
             android:background="?android:attr/listDivider" />
 
         <fragment
-            android:name="com.example.androidshop.HomeActivity"
+            android:name="com.example.androidshop.fragment_dashboard_activity"
             android:id="@+id/fr_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
         </fragment>
+
+
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -54,9 +55,4 @@
         android:paddingTop="150dp"
         android:paddingLeft="30dp"
         android:layout_gravity="start"/>
-
-
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>

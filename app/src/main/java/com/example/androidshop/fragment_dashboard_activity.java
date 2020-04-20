@@ -1,8 +1,5 @@
 package com.example.androidshop;
 
-
-
-
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -19,7 +16,7 @@ import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 
-public class HomeActivity extends Fragment {
+public class fragment_dashboard_activity extends Fragment {
 
     LinearLayout analytics;
 
@@ -31,24 +28,21 @@ public class HomeActivity extends Fragment {
         linerClick(analytics);
 
         //create liner graphic
-        GraphView graph = getActivity().findViewById(R.id.graph);
-        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-                new DataPoint(0, 1),
-                new DataPoint(1, 5),
-                new DataPoint(2, 3)
-        });
-        graph.addSeries(series);
+//        GraphView graph = getActivity().findViewById(R.id.graph);
+//        LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
+//                new DataPoint(0, 1),
+//                new DataPoint(1, 5),
+//                new DataPoint(2, 3)
+//        });
+//        graph.addSeries(series);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        return inflater.inflate(R.layout.fragment_home_activity, container, false);
-
-
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_dashboard_activity, container, false);
     }
-
     public void linerClick(LinearLayout img){
         img.setOnClickListener(new View.OnClickListener() {
             @Override

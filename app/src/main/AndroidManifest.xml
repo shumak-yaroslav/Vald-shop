@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".DrawerLayoutActivity"></activity>
+        <activity android:name=".AnalisLayot"></activity>
+        <activity android:name=".NotificationLayoutActivity" />
+        <activity android:name=".DashboardLayoutActivity" />
+        <activity android:name=".DrawerLayoutActivity" />
         <activity android:name=".StartActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Registr"></activity>
+        <activity android:name=".Registr" />
         <activity android:name=".EnterToAdmin" />
         <activity
             android:name=".creditcard"
