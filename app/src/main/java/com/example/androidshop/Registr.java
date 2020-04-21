@@ -29,7 +29,7 @@ public class Registr extends AppCompatActivity {
 
 
 
-        loadImg( "https://firebasestorage.googleapis.com/v0/b/androidshopvlad.appspot.com/o/add%20card%2Fnext%201.png?alt=media&token=aa148684-f093-4241-a5ba-ca67249a653b",img);
+        loadImg( "https://firebasestorage.googleapis.com/v0/b/androidshop-6672b.appspot.com/o/%D0%BE%D0%B1%D1%89%D0%B8%D0%B5%2Fdown-arrow%202.png?alt=media&token=16300311-8b6b-46d3-a059-059aeca1864c",img);
         log_in();
         imgClick();
     }

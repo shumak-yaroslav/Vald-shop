@@ -3,13 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/notification_drawer_layout"
+    android:id="@+id/dashboard_drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="end"
-    tools:context=".NotificationLayoutActivity">
-
+    tools:openDrawer="start"
+    tools:context=".DashboardLayoutActivity">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -25,9 +24,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Notification"
+                android:text="Dashboard"
                 android:textColor="#050505"
-                android:textSize="20dp"
+                android:textSize="25dp"
                 android:textStyle="bold" />
         </androidx.appcompat.widget.Toolbar>
 
@@ -38,7 +37,7 @@
             android:background="?android:attr/listDivider" />
 
         <fragment
-            android:name="com.example.androidshop.fragment_notification_activity"
+            android:name="com.example.androidshop.fragment_dashboard_activity"
             android:id="@+id/fr_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -53,8 +52,8 @@
         android:id="@+id/navigationView"
         android:fitsSystemWindows="true"
         app:menu="@menu/drawer_item"
-        app:itemIconSize="28dp"
-        android:paddingTop="150dp"
-        android:paddingLeft="30dp"
+        app:itemIconSize="30dp"
+        android:paddingTop="180dp"
+        android:paddingLeft="35dp"
         android:layout_gravity="start"/>
 </androidx.drawerlayout.widget.DrawerLayout>

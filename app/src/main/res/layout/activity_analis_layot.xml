@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="5dp"
             android:text="Home"
-            android:textColor="#050505"
+            android:textColor="#1E90FF"
             android:textSize="18dp"
             android:textStyle="bold" />
 

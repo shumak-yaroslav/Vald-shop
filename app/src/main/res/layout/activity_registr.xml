@@ -49,7 +49,7 @@
             android:layout_marginTop="15dp"
             android:text="Create new account"
             android:textColor="#1E90FF"
-            android:textSize="25dp"
+            android:textSize="35dp"
             android:textStyle="bold" />
 
         <EditText

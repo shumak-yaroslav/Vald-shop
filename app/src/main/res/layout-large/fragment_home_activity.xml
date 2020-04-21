@@ -7,8 +7,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="406dp"
-        android:layout_height="601dp">
+        android:layout_width="match_parent"
+        android:layout_height="730dp">
 
 
     <LinearLayout
@@ -35,7 +35,6 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/img_analitycs"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:src="@drawable/rectanglesincercle"/>
@@ -160,7 +159,7 @@
                 android:textSize="25dp" />
 
             <TextView
-                android:layout_width="275dp"
+                android:layout_width="340dp"
                 android:layout_height="wrap_content"
                 android:gravity="right"
                 android:text="Today"
@@ -198,7 +197,7 @@
 
 
                 <LinearLayout
-                    android:layout_width="130dp"
+                    android:layout_width="150dp"
                     android:layout_height="90dp"
                     android:orientation="vertical"
                     android:background="@drawable/cornersilverborder">
@@ -227,7 +226,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="130dp"
+                    android:layout_width="150dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="20dp"
                     android:orientation="vertical"
@@ -257,7 +256,7 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="130dp"
+                    android:layout_width="150dp"
                     android:layout_height="90dp"
                     android:layout_marginLeft="20dp"
                     android:orientation="vertical"
@@ -341,7 +340,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>
@@ -381,7 +380,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>
@@ -421,7 +420,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>
@@ -461,7 +460,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>
@@ -501,7 +500,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>
@@ -541,7 +540,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginLeft="90dp"
                     android:layout_marginTop="10dp"
                     android:textColor="#FB0202" />
             </TableRow>

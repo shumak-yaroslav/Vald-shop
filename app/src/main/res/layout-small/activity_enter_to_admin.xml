@@ -13,13 +13,13 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="15dp"
             android:orientation="horizontal">
 
             <ImageView
                 android:id="@+id/back"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp" />
 
@@ -30,7 +30,7 @@
                 android:layout_marginLeft="5dp"
                 android:text="Back"
                 android:textColor="#1E90FF"
-                android:textSize="18dp"
+                android:textSize="10dp"
                 android:textStyle="bold" />
 
 
@@ -39,27 +39,28 @@
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_marginTop="-5dp"
+
             android:background="?android:attr/listDivider" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="10dp"
             android:text="Sign In"
             android:textColor="#1E90FF"
-            android:textSize="25dp"
+            android:textSize="15dp"
             android:textStyle="bold" />
 
         <EditText
             android:id="@+id/mail"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="15dp"
             android:ems="10"
+            android:textSize="6dp"
             android:hint="E-mail or phone number"
             android:paddingLeft="20dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:background="@drawable/oval"
@@ -67,11 +68,12 @@
         <EditText
             android:id="@+id/psw"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="15dp"
+            android:textSize="6dp"
             android:ems="10"
             android:hint="Password"
             android:paddingLeft="20dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:background="@drawable/oval"
@@ -80,9 +82,10 @@
         <Button
             android:id="@+id/log_in"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="15dp"
+            android:textSize="6dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="10dp"
             android:layout_marginRight="50dp"
             android:background="@drawable/sign_in"
             android:text="Log in"

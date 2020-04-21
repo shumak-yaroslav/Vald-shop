@@ -7,8 +7,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="406dp"
-        android:layout_height="601dp">
+        android:layout_width="match_parent"
+        android:layout_height="1210dp">
 
 
     <LinearLayout
@@ -18,7 +18,7 @@
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="150dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="10dp">
@@ -35,14 +35,15 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/img_analitycs"
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/rectanglesincercle"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Analytics"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -52,17 +53,19 @@
                     android:id="@+id/customres"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="30dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/homeblue"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Customers"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -70,17 +73,19 @@
                     android:id="@+id/orders"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="30dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/orders"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Orders"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -88,17 +93,19 @@
                     android:id="@+id/tasks"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="30dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/tasks"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Tasks"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -106,17 +113,19 @@
                     android:id="@+id/sales"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="30dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/sales"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Sales"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -125,17 +134,19 @@
                     android:id="@+id/products"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginLeft="30dp"
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="70dp"
-                        android:layout_height="70dp"
+                        android:layout_width="110dp"
+                        android:layout_height="110dp"
                         android:src="@drawable/products"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Products"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
                         android:textColor="#1B1A1A"
                         android:layout_gravity="center"/>
                 </LinearLayout>
@@ -157,16 +168,16 @@
                 android:layout_height="wrap_content"
                 android:text="Overview"
                 android:textColor="#090909"
-                android:textSize="25dp" />
+                android:textSize="40dp" />
 
             <TextView
-                android:layout_width="275dp"
+                android:layout_width="600dp"
                 android:layout_height="wrap_content"
                 android:gravity="right"
                 android:text="Today"
                 android:textColor="#9A9898"
                 android:layout_marginRight="5dp"
-                android:textSize="15dp" />
+                android:textSize="25dp" />
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="10dp"
@@ -180,13 +191,13 @@
 
         <com.jjoe64.graphview.GraphView
             android:layout_width="match_parent"
-            android:layout_height="200dip"
+            android:layout_height="350dip"
 
             android:id="@+id/graph" />
 
         <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="130dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp">
@@ -194,12 +205,13 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+
                 android:orientation="horizontal">
 
 
                 <LinearLayout
-                    android:layout_width="130dp"
-                    android:layout_height="90dp"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
                     android:orientation="vertical"
                     android:background="@drawable/cornersilverborder">
 
@@ -209,13 +221,15 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
                         android:text="TOTAL"
-                        android:textColor="#9A9898" />
+                        android:textColor="#9A9898"
+                        android:textSize="24sp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="REVENUE"
+                        android:textSize="24sp"
                         android:textColor="#9A9898" />
 
                     <TextView
@@ -223,13 +237,14 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="$32,575"
+                        android:textSize="24sp"
                         android:textColor="#2196F3" />
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="130dp"
-                    android:layout_height="90dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="90dp"
                     android:orientation="vertical"
                     android:background="@drawable/cornersilverborder">
                     <TextView
@@ -237,6 +252,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
+                        android:textSize="24sp"
                         android:text="TOTAL"
                         android:textColor="#9A9898" />
 
@@ -245,21 +261,23 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:text="PROFIT"
+                        android:textSize="24sp"
                         android:textColor="#9A9898" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:textSize="24sp"
                         android:text="$20,590"
                         android:textColor="#2196F3" />
 
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="130dp"
-                    android:layout_height="90dp"
-                    android:layout_marginLeft="20dp"
+                    android:layout_width="200dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="90dp"
                     android:orientation="vertical"
                     android:background="@drawable/cornersilverborder">
                     <TextView
@@ -267,6 +285,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="15dp"
+                        android:textSize="24sp"
                         android:text="TOTAL"
                         android:textColor="#9A9898" />
 
@@ -274,6 +293,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:textSize="24sp"
                         android:text="VIEWS"
                         android:textColor="#9A9898" />
 
@@ -281,6 +301,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:textSize="24sp"
                         android:text="17,100"
                         android:textColor="#2196F3" />
 
@@ -311,8 +332,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -324,7 +345,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -334,15 +356,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
             <TableRow
@@ -351,8 +374,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -364,7 +387,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -374,15 +398,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
             <TableRow
@@ -391,8 +416,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -404,7 +429,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -414,15 +440,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
             <TableRow
@@ -431,8 +458,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -444,7 +471,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -454,15 +482,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
             <TableRow
@@ -471,8 +500,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -484,7 +513,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -494,15 +524,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
             <TableRow
@@ -511,8 +542,8 @@
                 android:layout_height="50dp">
 
                 <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="50dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginLeft="10dp"
                     android:src="@drawable/faceman" />
                 <LinearLayout
@@ -524,7 +555,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="10dp"
+                        android:textSize="18dp"
                         android:text="Daniel Wellington Classic"
                         android:textColor="#4A4848" />
 
@@ -534,15 +566,16 @@
                         android:layout_marginLeft="5dp"
                         android:text="John Doe Stripe &#183; Stripe &#183; #51202325 &#183; Aug 11"
                         android:textColor="#9A9898"
-                        android:textSize="12sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$149.21"
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="18dp"
                     android:textColor="#FB0202" />
             </TableRow>
         </TableLayout>

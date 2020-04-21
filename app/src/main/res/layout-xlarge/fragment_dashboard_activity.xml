@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="9dp"
@@ -20,16 +20,16 @@
 
             <LinearLayout
                 android:id="@+id/analytics"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/rectanglesincercle"/>
 
                 <TextView
@@ -37,43 +37,47 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Analytics"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/customres"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="30dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/homeblue"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:text="Customers"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/orders"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="30dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/orders"/>
 
                 <TextView
@@ -81,12 +85,14 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Orders"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="9dp"
@@ -95,16 +101,16 @@
 
             <LinearLayout
                 android:id="@+id/tasks"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/tasks"/>
 
                 <TextView
@@ -112,43 +118,47 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Tasks"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/sales"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="30dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/sales"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:text="Sales"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/products"
-                android:layout_width="124dp"
-                android:layout_height="180dp"
+                android:layout_width="240dp"
+                android:layout_height="300dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="30dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
-                    android:layout_height="80dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="60dp"
                     android:src="@drawable/products"/>
 
                 <TextView
@@ -156,6 +166,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Products"
+                    android:layout_marginTop="10dp"
+                    android:textSize="28dp"
                     android:textColor="#1B1A1A" />
             </LinearLayout>
         </LinearLayout>

@@ -17,4 +17,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
 
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">25dp</item>
+    </style>
+
 </resources>

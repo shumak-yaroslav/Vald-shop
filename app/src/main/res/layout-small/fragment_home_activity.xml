@@ -35,10 +35,9 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:id="@+id/img_analitycs"
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/rectanglesincercle"/>
+                        android:src="@drawable/coupon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -58,7 +57,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/homeblue"/>
+                        android:src="@drawable/intersect"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -76,7 +75,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/orders"/>
+                        android:src="@drawable/coupon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -94,7 +93,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/tasks"/>
+                        android:src="@drawable/coupon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -112,7 +111,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/sales"/>
+                        android:src="@drawable/coupon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -131,7 +130,7 @@
                     <ImageView
                         android:layout_width="70dp"
                         android:layout_height="70dp"
-                        android:src="@drawable/products"/>
+                        android:src="@drawable/coupon"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -314,7 +313,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -354,7 +353,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -394,7 +393,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -434,7 +433,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -474,7 +473,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -514,7 +513,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/faceman" />
+                    android:src="@drawable/coupon" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

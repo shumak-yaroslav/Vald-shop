@@ -27,7 +27,7 @@ public class AnalisLayot extends AppCompatActivity {
 
     ImageView img;
 
-    GraphView graph,costs,quater;
+    GraphView graph,costs,quater,acquisition,monthly_profit;
     LineGraphSeries<DataPoint> series;
     BarGraphSeries<DataPoint> series1;
 
@@ -51,6 +51,8 @@ public class AnalisLayot extends AppCompatActivity {
         graph = findViewById(R.id.graph);
         costs = findViewById(R.id.costs);
         quater = findViewById(R.id.quater);
+        acquisition = findViewById(R.id.acquisition);
+        monthly_profit = findViewById(R.id.monthly_profit);
 
 
         series = new LineGraphSeries<>(new DataPoint[] {
@@ -67,6 +69,8 @@ public class AnalisLayot extends AppCompatActivity {
         });
         graph.addSeries(series);
         costs.addSeries(series);
+        acquisition.addSeries(series1);
+        monthly_profit.addSeries(series);
         quater.addSeries(series1);
 
 

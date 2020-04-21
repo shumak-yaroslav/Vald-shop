@@ -51,6 +51,7 @@
         android:id="@+id/navigationView"
         android:fitsSystemWindows="true"
         app:menu="@menu/drawer_item"
+        app:itemIconSize="28dp"
         android:paddingTop="150dp"
         android:paddingLeft="30dp"
         android:layout_gravity="start"/>
