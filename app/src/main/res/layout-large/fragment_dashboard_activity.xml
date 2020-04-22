@@ -20,13 +20,13 @@
 
             <LinearLayout
                 android:id="@+id/analytics"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
@@ -41,14 +41,14 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/customres"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
@@ -63,14 +63,14 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/orders"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
@@ -88,20 +88,20 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginLeft="9dp"
             android:layout_marginRight="9dp"
             android:orientation="horizontal">
 
             <LinearLayout
                 android:id="@+id/tasks"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
@@ -116,14 +116,14 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/sales"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"
@@ -138,14 +138,14 @@
             </LinearLayout>
             <LinearLayout
                 android:id="@+id/products"
-                android:layout_width="140dp"
-                android:layout_height="190dp"
+                android:layout_width="166dp"
+                android:layout_height="200dp"
                 android:orientation="vertical"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:background="@drawable/cornersilverborder">
 
                 <ImageView
-                    android:layout_width="70dp"
+                    android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_gravity="center"
                     android:layout_marginTop="40dp"

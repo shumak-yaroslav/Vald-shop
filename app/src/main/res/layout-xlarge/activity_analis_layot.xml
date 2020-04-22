@@ -8,8 +8,8 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="406dp"
-        android:layout_height="656dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -21,16 +21,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="80dp"
         android:orientation="horizontal"
         tools:ignore="MissingConstraints">
 
         <ImageView
             android:id="@+id/back"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp" />
+            android:layout_marginLeft="25dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -39,16 +39,16 @@
             android:layout_marginLeft="5dp"
             android:text="Home"
             android:textColor="#1E90FF"
-            android:textSize="18dp"
+            android:textSize="28dp"
             android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Analytics"
-            android:textSize="20dp"
+            android:textSize="30dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="90dp"
+            android:layout_marginLeft="280dp"
             android:textColor="#050505"
             android:textStyle="bold"/>
     </LinearLayout>
@@ -67,11 +67,11 @@
         android:layout_marginLeft="10dp"
         android:text="Revenue"
         android:textColor="#090909"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
     <com.jjoe64.graphview.GraphView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
+        android:layout_height="300dip"
 
         android:id="@+id/graph" />
     <TextView
@@ -81,11 +81,11 @@
         android:layout_marginLeft="10dp"
         android:text="Costs"
         android:textColor="#090909"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
     <com.jjoe64.graphview.GraphView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
+        android:layout_height="300dip"
 
         android:id="@+id/costs" />
     <TextView
@@ -95,12 +95,12 @@
         android:layout_marginLeft="10dp"
         android:text="Acquisition"
         android:textColor="#090909"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
+        android:layout_height="300dip"
 
         android:id="@+id/acquisition" />
     <TextView
@@ -110,12 +110,12 @@
         android:layout_marginLeft="10dp"
         android:text="Monthly_Profit"
         android:textColor="#090909"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
+        android:layout_height="300dip"
 
         android:id="@+id/monthly_profit" />
     <TextView
@@ -125,12 +125,12 @@
         android:layout_marginLeft="10dp"
         android:text="Quarterly Revenue by Country"
         android:textColor="#090909"
-        android:textSize="25dp" />
+        android:textSize="35dp" />
 
     <com.jjoe64.graphview.GraphView
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
-        android:layout_height="200dip"
+        android:layout_height="300dip"
 
         android:id="@+id/quater" />
 
