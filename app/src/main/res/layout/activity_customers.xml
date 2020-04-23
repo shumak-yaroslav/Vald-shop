@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customers">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cor11">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/cor11">
+
+            <ImageView
+                android:id="@+id/imageView016"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/textView0016"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Home"
+                android:textColor="#2196F3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:text="Customers"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="100dp"
+                 />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cor11">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="4sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:background="#DBDCDB"
+        android:layout_height="1dp"
+        android:layout_marginTop="0dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:id="@+id/linear1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView102"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView203"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView501"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear2">
+
+                <ImageView
+                    android:id="@+id/imageView101"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView201"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 2"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView207"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $2"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 2"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear3">
+
+                <ImageView
+                    android:id="@+id/imageView012"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView022"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 3"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $3"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView051"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 3"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear4">
+
+                <ImageView
+                    android:id="@+id/imageView011"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView021"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 4"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView027"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $4"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView050"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 4"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear5">
+
+                <ImageView
+                    android:id="@+id/imageView120"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView220"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 5"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView230"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $5"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView510"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 5"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear6">
+
+                <ImageView
+                    android:id="@+id/imageView110"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView210"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 6"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView270"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $6"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView0500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 6"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear7">
+
+                <ImageView
+                    android:id="@+id/imageView0012"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                   />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView0022"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 7"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView0023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $7"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView0051"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 7"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear8">
+
+                <ImageView
+                    android:id="@+id/imageView0011"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView0021"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 8"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView0027"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $8"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView0050"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 8"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear9">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 9"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $9"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 9"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear10">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 10"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView2700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $10"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView5000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 10"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical"
+                android:id="@+id/linear11">
+
+                <ImageView
+                    android:id="@+id/imageView1100"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2100"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="John Doe 11"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="iPhone - Total Spend $11"
+                    android:textColor="#868A86"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="235dp"
+                    android:layout_marginTop="-30dp"
+                    android:text="Created Jul 11"
+                    android:textColor="#868A86"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+</ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

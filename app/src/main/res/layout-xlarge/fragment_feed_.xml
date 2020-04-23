@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feed_Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView102"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="720dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView202"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Order Placed"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView203"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView501"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="580dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="#3214123"
+                    android:textColor="#868A86"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView101"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView201"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Payment Received"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView207"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="600dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$198.60"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView012"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView022"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Refund Requested"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView051"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="630dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$260"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView011"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView021"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Refund Processed"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView027"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView050"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="630dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$260"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView120"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView220"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Customer Registration"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView230"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="#7632423. Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView510"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="590dp"
+                    android:layout_marginTop="-45dp"
+                    android:text=""
+                    android:textColor="#868A86"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView110"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView210"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Order Placed"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView270"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView0500"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="590dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="#3214123"
+                    android:textColor="#868A86"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView0012"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView0022"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Payment Received"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView0023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView0051"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="610dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$198.60"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView0011"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView0021"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Refund Requested"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView0027"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView0050"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="640dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$260"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall2"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Refund Processed"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="640dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$260"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Customer Registration"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="#7632423. Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="590dp"
+                    android:layout_marginTop="-45dp"
+                    android:text=""
+                    android:textColor="#868A86"
+                    android:textSize="24sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1100"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2100"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Order Placed"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView50"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="590dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="#3214123"
+                    android:textColor="#868A86"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView100100"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ovall1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="700dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="-35dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/cor11"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView200100"
+                    android:layout_width="332dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="Payment Received"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textView2007"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Jul 12, 2018"
+                    android:textColor="#868A86"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView5000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="610dp"
+                    android:layout_marginTop="-45dp"
+                    android:text="$198.60"
+                    android:textColor="#0088ff"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

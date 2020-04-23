@@ -5,20 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#F5F5F5"
-    android:theme="@style/Theme.AppCompat.NoActionBar"
     tools:context=".MainActivity">
 
 
     <ScrollView
-        android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="602dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        android:layout_height="672dp"
+        tools:ignore="MissingConstraints">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -1055,7 +1048,7 @@
         android:id="@+id/bottomNavigationView3"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginTop="602dp"
+        android:layout_marginTop="672dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -45,8 +45,6 @@ dependencies {
     implementation 'com.yinglan.shadowimageview:shadowimageview:1.0.4'
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.github.bumptech.glide:glide:4.8.0'
-    implementation 'com.jjoe64:graphview:4.2.2'
-
 
 }
 

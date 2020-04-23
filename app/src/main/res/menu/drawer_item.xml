@@ -2,26 +2,26 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/nav_home"
-        android:icon="@drawable/homemenu"
+        android:icon="@drawable/home"
         android:title="Home"/>
     <item
         android:id="@+id/nav_dashboard"
-        android:icon="@drawable/rectanglemenu"
+        android:icon="@drawable/home"
         android:title="Dashboard"/>
     <item
         android:id="@+id/nav_orders"
-        android:icon="@drawable/ordermenu"
+        android:icon="@drawable/home"
         android:title="Orders"/>
     <item
         android:id="@+id/nav_notifications"
-        android:icon="@drawable/notificationmenu"
+        android:icon="@drawable/home"
         android:title="Notifications"/>
     <item
         android:id="@+id/nav_activity"
-        android:icon="@drawable/activitymenu"
+        android:icon="@drawable/home"
         android:title="Activity"/>
     <item
         android:id="@+id/nav_logout"
-        android:icon="@drawable/logout"
+        android:icon="@drawable/home"
         android:title="Logout"/>
 </menu>

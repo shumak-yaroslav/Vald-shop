@@ -8,20 +8,257 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".AnalisLayot"></activity>
-        <activity android:name=".NotificationLayoutActivity" />
-        <activity android:name=".DashboardLayoutActivity" />
-        <activity android:name=".DrawerLayoutActivity" />
-        <activity android:name=".StartActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Sales11"
+            android:label="@string/title_activity_sales11"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Sales10"
+            android:label="@string/title_activity_sales10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales9"
+            android:label="@string/title_activity_sales9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales8"
+            android:label="@string/title_activity_sales8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales7"
+            android:label="@string/title_activity_sales7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales6"
+            android:label="@string/title_activity_sales6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales5"
+            android:label="@string/title_activity_sales5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales4"
+            android:label="@string/title_activity_sales4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales3"
+            android:label="@string/title_activity_sales3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales2"
+            android:label="@string/title_activity_sales2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sales1"
+            android:label="@string/title_activity_sales1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task11"
+            android:label="@string/title_activity_task11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task10"
+            android:label="@string/title_activity_task10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task9"
+            android:label="@string/title_activity_task9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task8"
+            android:label="@string/title_activity_task8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task7"
+            android:label="@string/title_activity_task7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task6"
+            android:label="@string/title_activity_task6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task5"
+            android:label="@string/title_activity_task5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task4"
+            android:label="@string/title_activity_task4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task3"
+            android:label="@string/title_activity_task3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task2"
+            android:label="@string/title_activity_task2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order11"
+            android:label="@string/title_activity_order11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order10"
+            android:label="@string/title_activity_order10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order9"
+            android:label="@string/title_activity_order9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order8"
+            android:label="@string/title_activity_order8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order7"
+            android:label="@string/title_activity_order7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order6"
+            android:label="@string/title_activity_order6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order5"
+            android:label="@string/title_activity_order5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order4"
+            android:label="@string/title_activity_order4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order3"
+            android:label="@string/title_activity_order3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Order2"
+            android:label="@string/title_activity_order2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product11"
+            android:label="@string/title_activity_product11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product10"
+            android:label="@string/title_activity_product10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product9"
+            android:label="@string/title_activity_product9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product8"
+            android:label="@string/title_activity_product8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product7"
+            android:label="@string/title_activity_product7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product6"
+            android:label="@string/title_activity_product6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product5"
+            android:label="@string/title_activity_product5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product4"
+            android:label="@string/title_activity_product4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product3"
+            android:label="@string/title_activity_product3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product2"
+            android:label="@string/title_activity_product2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer11"
+            android:label="@string/title_activity_customer11"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer10"
+            android:label="@string/title_activity_customer10"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer9"
+            android:label="@string/title_activity_customer9"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer8"
+            android:label="@string/title_activity_customer8"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer7"
+            android:label="@string/title_activity_customer7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer6"
+            android:label="@string/title_activity_customer6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer5"
+            android:label="@string/title_activity_customer5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer4"
+            android:label="@string/title_activity_customer4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer3"
+            android:label="@string/title_activity_customer3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer2"
+            android:label="@string/title_activity_customer2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Feed" />
+        <activity
+            android:name=".Order1"
+            android:label="@string/title_activity_order1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Product1"
+            android:label="@string/title_activity_product1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Task1"
+            android:label="@string/title_activity_task1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Customer1"
+            android:label="@string/title_activity_customer1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tasks"
+            android:label="@string/title_activity_tasks"
+            android:theme="@style/AppTheme.NoActionBar">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".Registr" />
-        <activity android:name=".EnterToAdmin" />
+
+        <activity
+            android:name=".Sales"
+            android:label="@string/title_activity_sales"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Products"
+            android:label="@string/title_activity_products"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".Orders"
+            android:label="@string/title_activity_orders"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Customers"
+            android:label="@string/title_activity_customers"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
         <activity
             android:name=".creditcard"
             android:label="@string/title_activity_creditcard"
