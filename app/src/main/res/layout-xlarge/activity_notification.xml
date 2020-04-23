@@ -31,7 +31,7 @@
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="280dp"
+                android:layout_marginLeft="290dp"
                 android:text="Notifications"
                 android:textColor="#000000"
                 android:textSize="36sp"
@@ -76,7 +76,7 @@
             android:id="@+id/imageView15"
             android:layout_width="200dp"
             android:layout_height="200dp"
-            android:layout_marginLeft="280dp"
+            android:layout_marginLeft="300dp"
             android:layout_marginTop="400dp"
             app:srcCompat="@drawable/zvon" />
 
@@ -84,7 +84,7 @@
             android:id="@+id/textView29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="220dp"
+            android:layout_marginLeft="230dp"
             android:layout_marginTop="40dp"
             android:text="You're all caught up!"
             android:textSize="36sp" />
@@ -94,7 +94,7 @@
         android:id="@+id/bottomNavigationView3"
         android:layout_width="wrap_content"
         android:layout_height="63dp"
-        android:layout_marginTop="1220dp"
+        android:layout_marginTop="1150dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

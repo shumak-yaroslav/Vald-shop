@@ -11,7 +11,7 @@
     <ScrollView
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
-        android:layout_height="1220dp"
+        android:layout_height="1150dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -1195,7 +1195,7 @@
         android:id="@+id/bottomNavigationView3"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginTop="1220dp"
+        android:layout_marginTop="1150dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
