@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph64"
+    app:startDestination="@id/First35Fragment">
+
+    <fragment
+        android:id="@+id/First35Fragment"
+        android:name="com.example.androidshop.First35Fragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first35">
+
+        <action
+            android:id="@+id/action_First35Fragment_to_Second36Fragment"
+            app:destination="@id/Second36Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/Second36Fragment"
+        android:name="com.example.androidshop.Second36Fragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second36">
+
+        <action
+            android:id="@+id/action_Second36Fragment_to_First35Fragment"
+            app:destination="@id/First35Fragment" />
+    </fragment>
+</navigation>

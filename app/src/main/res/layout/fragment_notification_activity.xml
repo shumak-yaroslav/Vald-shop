@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_notification_activity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="406dp"
+        android:layout_height="601dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/calendar" />
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="CALENDAR"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Your staff meeting start in 15 minutes"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="80dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/salenot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="SALES"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="An order of $120 has been placed"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="5 hours ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/literaturenot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="RECOMMENDATION"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="230dp"
+                       android:layout_height="wrap_content"
+                       android:text="New recommendation for John Doe has been prepared"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="0 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/usernot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="USERS"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="A new account has been created"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/dashboardnot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="MONITORING"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="250dp"
+                       android:layout_height="wrap_content"
+                       android:text="Anomaly detected! Your landing page has spiked 10% in page views in the last hour."
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/downarrow" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="ALERTS"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Your site has been down for 5 minutes"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="25dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/calendar" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Calendar"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Your staff meeting start in 15 minutes"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="1 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/salenot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="SALES"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="An order of $120 has been placed"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="5 hours ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_marginTop="5dp"
+               android:layout_height="1dp"
+               android:background="?android:attr/listDivider" />
+           <TableRow
+               android:layout_marginTop="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+
+               <ImageView
+                   android:layout_width="30dp"
+                   android:layout_height="30dp"
+                   android:layout_gravity="center"
+                   android:layout_marginLeft="15dp"
+                   android:src="@drawable/dashboardnot" />
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="15dp"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="RECOMMENDATION"
+                       android:textColor="#9A9898" />
+
+                   <TextView
+                       android:layout_width="230dp"
+                       android:layout_height="wrap_content"
+                       android:text="New recommendation for John Doe has been prepared"
+                       android:textColor="#6C6B6B"
+                       android:textSize="14sp" />
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="0 days ago"
+                       android:textColor="#9A9898"
+                       android:textSize="12sp" />
+               </LinearLayout>
+
+               <ImageView
+                   android:layout_width="10dp"
+                   android:layout_height="10dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/ellipseorange"/>
+           </TableRow>
+
+       </TableLayout>
+   </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
